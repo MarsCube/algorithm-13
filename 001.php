@@ -1,6 +1,7 @@
 <?php
 
 /** 数字排序
+ * 比较相邻两个数与排序要求相反，则互换位置
  * @param array $arr
  * @param string $sort_flag 'desc' 倒序，'asc'正序
  * @return array|bool
