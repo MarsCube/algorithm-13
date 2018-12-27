@@ -13,7 +13,7 @@ function numberSort(array $arr, $sort_flag = 'asc')
     }
     $len = count($arr);
     for ($i = 1; $i < $len; $i++) {
-        for ($j = 0; $j < $len - $i ; $j++) {
+        for ($j = 0; $j < $len - $i; $j++) {
             if ($sort_flag == 'desc') {
                 if ($arr[$j + 1] > $arr[$j]) {
                     $tmp = $arr[$j + 1];

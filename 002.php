@@ -12,7 +12,7 @@ function strSort(array $arr, $sort_flag = 'asc')
     }
     $len = count($arr);
     for ($i = 1; $i < $len; $i++) {
-        for ($j = 0; $j < $len - $i ; $j++) {
+        for ($j = 0; $j < $len - $i; $j++) {
             if ($sort_flag == 'desc') {
                 if (ord(strtolower($arr[$j + 1]{0})) > ord(strtolower($arr[$j]{0}))) {
                     $tmp = $arr[$j + 1];
