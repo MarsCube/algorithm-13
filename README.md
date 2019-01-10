@@ -7,3 +7,5 @@
 003 [选择排序](https://github.com/ahcometrue/algorithm/blob/master/003.php)
 
 004 [数组实现](https://github.com/ahcometrue/algorithm/blob/master/004.php)
+
+005 [判断括号是否有效](https://github.com/ahcometrue/algorithm/blob/master/005.php)
