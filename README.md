@@ -1,11 +1,15 @@
 ### 算法及数据结构
 
-001 [冒泡排序之数字](https://github.com/ahcometrue/algorithm/blob/master/001.php)
+* [冒泡排序之数字](./001.php)
 
-002 [冒泡排序之字符串](https://github.com/ahcometrue/algorithm/blob/master/002.php)
+* [冒泡排序之字符串](./002.php)
 
-003 [选择排序](https://github.com/ahcometrue/algorithm/blob/master/003.php)
+* [选择排序](./003.php)
 
-004 [数组实现](https://github.com/ahcometrue/algorithm/blob/master/004.php)
+* [数组实现](./004.php)
 
-005 [判断括号是否有效](https://github.com/ahcometrue/algorithm/blob/master/005.php)
+* [判断括号是否有效](./005.php)
+
+* [二分查找](./006.php)
+
+* [栈的实现](./007.php)

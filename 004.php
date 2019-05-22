@@ -70,7 +70,7 @@ class myArray
         }
 
         for ($i = $this->capacity; $i >= $index; $i--) {
-            $this->data[$i + 1] = $this->data[$i];
+            $this->data[$i + 1] = $this->data[$i] ?? null;
         }
         $this->data[$index] = $value;
         $this->length++;
@@ -83,10 +83,7 @@ class myArray
      */
     public function printData()
     {
-        var_dump($this->data, $this->length);
-        for ($i = 0; $i < $this->length + 1; $i++) {
-            echo 'index: ' . $i . ' value: ' . $this->data[$i] . PHP_EOL;
-        }
+        var_dump($this->data);
     }
 }
 
