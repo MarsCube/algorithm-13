@@ -21,13 +21,13 @@ class Node
     }
 }
 
-class singleLinkList
+class SingleLinkList
 {
     /**
      * 链表头结点
      * @var Node
      */
-    public $head;
+    private $head;
 
     /**
      * 链表大小
@@ -148,7 +148,7 @@ class singleLinkList
     }
 }
 
-$list = new singleLinkList();
+$list = new SingleLinkList();
 $list->add(new Node(100));
 $list->add(new Node(200));
 $list->add(new Node(300));
